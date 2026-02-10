@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+         <!-- bean definitions here -->
+         
+         <bean id="emp" class="com.jspider.spring_core_technology.dto.Employee">
+         
+         <constructor-arg name="id" value="101"></constructor-arg>
+         <constructor-arg name="name" value="Ujjawal kumar"></constructor-arg>
+         <constructor-arg name="email" value="ujjawal1422@gmail.com"></constructor-arg>
+         
+         </bean>
+         
+         
+         <bean id="student" class="com.jspider.spring_core_technology.dto.Student">
+         
+         <property name="id" value="110"></property>
+         <property name="name" value="Ankit kumar"></property>
+         
+         
+         </bean>
+
+</beans>
